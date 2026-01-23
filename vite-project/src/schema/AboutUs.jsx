@@ -33,7 +33,7 @@ const AboutUs = () => {
   ];
 
   return (
-    <section id="about" className="py-16 bg-gradient-to-b from-gray-50 to-white">
+    <section id="about" className="fixed inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 overflow-auto">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12">

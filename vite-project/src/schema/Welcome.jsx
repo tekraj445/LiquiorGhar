@@ -3,7 +3,7 @@ import { Clock, Phone, ArrowRight, MapPin } from 'lucide-react';
 
 const Welcome = () => {
   return (
-    <section id="welcome" className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden">
+    <section id="welcome" className="fixed inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 overflow-auto">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0" style={{
@@ -56,10 +56,11 @@ const Welcome = () => {
                 <span>Order Now</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg font-bold hover:bg-white hover:text-gray-900 transition transform hover:scale-105 flex items-center justify-center space-x-2">
+              <button className="bg-amber-400 text-gray-900 px-8 py-4 rounded-lg font-bold hover:bg-amber-500 transition transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg">
                 <MapPin className="w-5 h-5" />
                 <span>Check Delivery Area</span>
               </button>
+              
             </div>
           </div>
 

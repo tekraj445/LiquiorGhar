@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Lock, Eye, EyeOff } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const login = () => {
   const [formData, setFormData] = useState({
@@ -64,7 +65,7 @@ const login = () => {
                   onChange={handleChange}
                   onKeyPress={handleKeyPress}
                   className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-400 focus:border-transparent outline-none transition"
-                  placeholder="your@email.com"
+                  placeholder="abc@gmail.com"
                 />
               </div>
             </div>
@@ -90,7 +91,7 @@ const login = () => {
                   onClick={() => setShowPassword(!showPassword)}
                   className="absolute right-3 top-3 text-gray-400 hover:text-gray-600 transition"
                 >
-                  {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
+                  {showPassword ? <EyeOff className="w-5 h-4" /> : <Eye className="w-5 h-4" />}
                 </button>
               </div>
             </div>
@@ -164,9 +165,9 @@ const login = () => {
           {/* Register Link */}
           <p className="text-center text-gray-600 text-sm mt-6">
             Don't have an account?{' '}
-            <a href="register" className="text-amber-400 font-semibold hover:underline">
+            <Link to="/register" className="text-amber-400 font-semibold hover:underline">
               Create Account
-            </a>
+            </Link>
           </p>
         </div>
 

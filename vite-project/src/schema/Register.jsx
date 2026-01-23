@@ -44,14 +44,13 @@ const Register = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="fixed inset-0 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 overflow-auto">
       <div className="max-w-md w-full">
         {/* Header */}
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-white mb-2">
             Join <span className="text-amber-400">Liquor Ghar</span>
           </h2>
-          <p className="text-gray-400">Create your account for 24/7 delivery service</p>
         </div>
 
         {/* Form Card */}
@@ -228,7 +227,7 @@ const Register = () => {
           {/* Login Link */}
           <p className="text-center text-gray-600 text-sm mt-6">
             Already have an account?{' '}
-            <Link to="login" className="text-amber-400 font-semibold hover:underline">
+            <Link to="/login" className="text-amber-400 font-semibold hover:underline">
               Sign In
             </Link>
           </p>

@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
+    "@tailwindcss/vite": "^4.1.18",
     "lucide-react": "^0.562.0",
     "react": "^19.2.3",
     "react-data-table-component": "^7.7.0",
@@ -18,6 +19,7 @@
     "react-hook-form": "^7.69.0",
     "react-router-dom": "^7.11.0",
     "tailwind": "^2.4.1",
+    "tailwindcss": "^4.1.18",
     "zod": "^4.2.1"
   },
   "devDependencies": {
