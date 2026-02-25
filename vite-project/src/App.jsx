@@ -5,7 +5,6 @@ import Register from './schema/Register.jsx'
 import Login from './schema/login.jsx'
 import Navbar from './schema/Navbar.jsx'
 import AboutUs from './schema/AboutUs.jsx'
-import './App.css'
 
 function App() {
   return (
